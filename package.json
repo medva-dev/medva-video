@@ -1,0 +1,27 @@
+{
+  "name": "medva-video",
+  "version": "1.0.0",
+  "description": "My Remotion video",
+  "scripts": {
+    "start": "remotion preview",
+    "build": "remotion render HelloWorld out/video.mp4",
+    "upgrade": "remotion upgrade",
+    "test": "eslint src --ext ts,tsx,js,jsx"
+  },
+  "repository": {},
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@remotion/cli": "3.3.81",
+    "@remotion/lambda": "3.3.81",
+    "antd": "^5.4.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "remotion": "3.3.81"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config": "3.3.81",
+    "eslint": "^8.30.0",
+    "prettier": "^2.8.1"
+  },
+  "packageManager": "npm@9.1.2"
+}
